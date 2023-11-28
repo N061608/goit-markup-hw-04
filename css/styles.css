@@ -120,6 +120,16 @@ li > .link:focus {
 .first-section {
   background-color: var(--navy-blue);
   padding: 188px 0;
+  text-align: center;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.70),
+    rgba(46, 47, 66, 0.70)
+  ), url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-header {
@@ -193,6 +203,17 @@ li > .link:focus {
   padding: 120px 0;
 }
 
+.info .icon {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  width: 264px;
+  background-color: var(--cloud);
+  border-bottom: 8px;
+}
+
 .info.list {
   display: flex;
   gap: 24px;
@@ -237,6 +258,11 @@ li > .link:focus {
 .team.list {
   display: flex;
   gap: 24px;
+}
+
+
+.social-team-list .icon {
+  columns: var(--navy-blue);
 }
 
 /* Reused third section header from main */
