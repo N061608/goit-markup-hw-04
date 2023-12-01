@@ -39,6 +39,7 @@ body {
 
 .header {
   border-bottom: 1px solid var(--cornflower);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .top-header {
@@ -269,17 +270,21 @@ li > .link:focus {
   /* columns: var(--navy-blue); */
   display: flex;
   justify-content: center;
-  /* gap: 24px; */
+  gap: 24px;
 }
 
-.social-team .icon-item + .icon-item {
+/* .social-team .icon-item + .icon-item {
   margin-left: 24px;
-}
+} */
 
 .social-team .link:hover,
 .social-team .link:focus {
   background-color: var(--ocean);
 
+}
+
+.social-icon {
+  fill: #f4f4fd;
 }
 
 .social-team .link {
@@ -306,7 +311,7 @@ li > .link:focus {
   flex-shrink: 0; */
   border-radius: 4px;
   /* background: var(--CLOUD); */
-
+  margin-bottom: 8px;
 }
 
 /* Reused third section header from main */
