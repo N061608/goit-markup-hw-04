@@ -141,7 +141,7 @@ li > .link:focus {
   max-width: 496px;
   margin: 0 auto 48px;
 
-  box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .button {
@@ -260,22 +260,33 @@ li > .link:focus {
 .team.list {
   display: flex;
   gap: 24px;
+
+
 }
 
 
-.social-team-list .icon {
-  columns: var(--navy-blue);
+.social-team {
+  /* columns: var(--navy-blue); */
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
+.icon-item {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
 
-.icon {
+/* .icon {
   width: 264px;
   height: 112px;
   flex-shrink: 0;
   border-radius: 4px;
   background: var(--CLOUD);
   margin-bottom: 8px;
-}
+
+} */
 
 /* Reused third section header from main */
 
@@ -283,6 +294,11 @@ li > .link:focus {
   background-color: var(--white);
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #FFF);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 }
 
 .member-info {
