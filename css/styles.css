@@ -278,15 +278,15 @@ li > .link:focus {
   flex-shrink: 0;
 }
 
-/* .icon {
-  width: 264px;
+.icon {
+  /* width: 264px;
   height: 112px;
-  flex-shrink: 0;
+  flex-shrink: 0; */
   border-radius: 4px;
-  background: var(--CLOUD);
+  /* background: var(--CLOUD); */
   margin-bottom: 8px;
 
-} */
+}
 
 /* Reused third section header from main */
 
