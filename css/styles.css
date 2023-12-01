@@ -269,8 +269,30 @@ li > .link:focus {
   /* columns: var(--navy-blue); */
   display: flex;
   justify-content: center;
-  gap: 24px;
+  /* gap: 24px; */
 }
+
+.social-team .icon-item + .icon-item {
+  margin-left: 24px;
+}
+
+.social-team .link:hover,
+.social-team .link:focus {
+  background-color: var(--ocean);
+
+}
+
+.social-team .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--iris);
+  fill: var(--WHITE);
+  border-radius: 50%;
+}
+
 
 .icon-item {
   width: 40px;
@@ -284,7 +306,6 @@ li > .link:focus {
   flex-shrink: 0; */
   border-radius: 4px;
   /* background: var(--CLOUD); */
-  margin-bottom: 8px;
 
 }
 
@@ -312,6 +333,7 @@ li > .link:focus {
 
 .list-text {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 /* Reused item header from main  */
