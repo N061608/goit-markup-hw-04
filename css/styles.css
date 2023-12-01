@@ -300,6 +300,9 @@ li > .link:focus {
   height: 100%;
 }
 
+.link {
+  height: 100%;
+}
 
 .icon-item {
   width: 40px;
